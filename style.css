@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f3f4f6;
+}
+
+#landing {
+  background: linear-gradient(135deg, #4b6cb7, #182848);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#landing h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+#landing button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background: #00c896;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+form {
+  max-width: 600px;
+  margin: 30px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+form input, form textarea, form button {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+form button {
+  background: #4b6cb7;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#resumeOutput {
+  margin: 40px auto;
+  max-width: 800px;
+  background: white;
+  padding: 30px;
+  display: flex;
+  border-radius: 8px;
+}
+
+.resume-left {
+  width: 30%;
+  background: #1e2a38;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.resume-left img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.resume-left h2 {
+  font-size: 20px;
+  margin: 10px 0 5px;
+}
+
+.resume-left p {
+  margin: 4px 0;
+}
+
+.resume-right {
+  width: 70%;
+  padding: 20px;
+  color: #333;
+}
+
+.resume-right h3 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 4px;
+  margin-top: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #eee;
+  margin-top: 40px;
+}
